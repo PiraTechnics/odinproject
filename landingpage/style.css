@@ -1,0 +1,16 @@
+body {
+    /* Set a margin on both sides for landing page*/
+    margin: 0 3%;
+    background-color: black;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 20px 50px;
+}
+
+.nav-link {
+    color: #F9FAF8;
+    margin-top: -5px;
+}
