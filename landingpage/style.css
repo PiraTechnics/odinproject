@@ -1,16 +1,43 @@
 body {
     /* Set a margin on both sides for landing page*/
-    margin: 0 3%;
+    height: 100vh;
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
-header {
+header, footer {
+    height: 5vh;
     background-color: #1F2937;
+    padding: 10px 50px;
     color: #F9FAF8;
-    padding: 10px 20px 50px;
+    flex: 1;
 }
 
 .nav-link {
-    color: #F9FAF8;
-    margin-top: -5px;
+    padding: 10px;
+    color: inherit;
+}
+
+/* --- Flexbox body components --- */
+
+.content-column {
+    flex: 1;
+    background-color: white;
+    display: flex;
+}
+
+.content-column > div {
+    background-color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+#fc1 {
+    background-color: #1F2937;
+}
+
+#fc3 {
+    background-color: #e5e7eb;
 }
