@@ -3,6 +3,7 @@ body {
     width: 55vw;
     margin: auto; /* centers our body tag with a hard width of 55% of viewport */
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -30,14 +31,18 @@ header, footer {
 }
 
 .content-column > div {
-    background-color: #f1f1f1;
     width: 100%;
-    text-align: center;
+    text-align: start;
     padding: 50px;
 }
 
 #fc1 {
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+#fc2 {
+    color: black;
 }
 
 #fc3 {
