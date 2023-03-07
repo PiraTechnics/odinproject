@@ -15,6 +15,7 @@ header, footer {
     padding: 10px 50px;
     color: #F9FAF8;
     flex: 1;
+    font-size: small;
 }
 
 .nav-link {
@@ -39,12 +40,63 @@ header, footer {
 #fc1 {
     background-color: #1F2937;
     color: #F9FAF8;
+    font-size: small;
+}
+
+.row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
 }
 
 #fc2 {
     color: black;
+    flex-direction: column;
+    font-size: small;
+}
+
+#blueboxes {
+    display: flex; /* defaults to row*/
+    margin-bottom: 40px;
+    margin-top: -30px;
+    justify-content: space-around;
+    
+}
+
+.bluebox {
+    min-height: 100px;
+    min-width: 100px;
+    flex: 3;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+.bluebox + div {
+    flex: 1;
+    text-align: center;
+
 }
 
 #fc3 {
     background-color: #e5e7eb;
+}
+
+.attribution {
+    margin-top: -110px;
+}
+
+.cta {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.cta p {
+    font-size: small;
 }
