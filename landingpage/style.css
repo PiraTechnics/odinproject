@@ -1,6 +1,8 @@
 body {
-    /* Set a margin on both sides for landing page*/
     height: 100vh;
+    width: 55vw;
+    margin: auto; /* centers our body tag with a hard width of 55% of viewport */
+    justify-content: center;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -19,7 +21,7 @@ header, footer {
     color: inherit;
 }
 
-/* --- Flexbox body components --- */
+/* --- Flexbox content components --- */
 
 .content-column {
     flex: 1;
